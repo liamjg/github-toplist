@@ -1,0 +1,39 @@
+.github-toplist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 80%;
+  margin: auto;
+
+  .refreshable-table {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    table {
+      border-collapse: collapse;
+      width: 100%;
+
+      th {
+        text-align: center;
+      }
+
+      td {
+        img {
+          max-width: 64px;
+          max-height: 64px;
+        }
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 4px;
+        font-size: 12px;
+      }
+    }
+
+    button {
+      width: 128px;
+    }
+  }
+}
